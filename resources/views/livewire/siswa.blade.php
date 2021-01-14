@@ -53,8 +53,8 @@
             swal({
                 title: "Berhasil!",
                 text: "Data siswa berhasil disimpan.",
-                icon: "success",
-                button: "Ok",
+                type:"success",
+                confirmButtonClass:"btn btn-confirm mt-2"
             });
         });
 
@@ -62,8 +62,8 @@
             swal({
                 title: "Berhasil!",
                 text: "Data siswa berhasil diupdate.",
-                icon: "success",
-                button: "Ok",
+                type:"success",
+                confirmButtonClass:"btn btn-confirm mt-2"
             });
         });
 

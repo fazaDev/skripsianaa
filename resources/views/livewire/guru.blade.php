@@ -51,8 +51,8 @@
             swal({
                 title: "Berhasil!",
                 text: "Data guru berhasil disimpan.",
-                icon: "success",
-                button: "Ok",
+                type:"success",
+                confirmButtonClass:"btn btn-confirm mt-2"
             });
         });
 
@@ -60,8 +60,8 @@
             swal({
                 title: "Berhasil!",
                 text: "Data guru berhasil diupdate.",
-                icon: "info",
-                button: "Ok",
+                type:"success",
+                confirmButtonClass:"btn btn-confirm mt-2"
             });
         });
 
